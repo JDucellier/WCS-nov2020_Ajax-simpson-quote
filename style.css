@@ -80,7 +80,29 @@ footer {
   margin: auto;
   display: flex;
   justify-content: center;
-  padding: 40pt;
+  padding: 40pt 0;
   font-size: 17pt;
   color: whitesmoke;
+}
+
+/******************************************************/
+/****************** Mobile Version ********************/
+/******************************************************/
+@media screen and (max-width: 640px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .made-by {
+    padding: 20pt 0;
+  }
+  .btn {
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10pt 10pt 0 0;
+  }
 }
