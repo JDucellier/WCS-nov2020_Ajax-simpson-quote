@@ -7,7 +7,6 @@ function fetchSimpsonJSON() {
       return response.data; // response.data instead of response.json() with fetch
     })
     .then(function(simpsons) {
-      console.log('data decoded from JSON:', simpsons);
 
       let  simpsonHtml = simpsons.map(simpson => 
         `
