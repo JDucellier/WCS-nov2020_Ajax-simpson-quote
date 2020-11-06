@@ -63,6 +63,7 @@ body {
   padding: 4pt;
   margin: auto;
   display: flex;
+  max-height: 300px;
 }
 .card-body {
   padding: 10pt;
