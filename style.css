@@ -68,3 +68,19 @@ body {
 .card-body {
   padding: 10pt;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.made-by {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 40pt;
+  font-size: 17pt;
+  color: whitesmoke;
+}
