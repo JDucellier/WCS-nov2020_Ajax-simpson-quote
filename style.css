@@ -91,7 +91,7 @@ footer {
 @media screen and (max-width: 640px) {
   .content {
     grid-template-columns: 1fr;
-    margin-bottom: 30pt;
+    margin-bottom: 40pt;
   }
   footer {
     background-color: rgba(0, 0, 0, 0.4);
